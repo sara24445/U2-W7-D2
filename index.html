@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registrazione e Contatore</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      #counter {
+        font-size: 20px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Registrazione Utente</h1>
+    <div>
+      <div id="savedName"></div>
+      <input type="text" id="nameInput" placeholder="Inserisci il tuo nome" />
+      <button id="saveButton">Salva Nome</button>
+      <button id="removeButton">Rimuovi Nome</button>
+    </div>
+
+    <div id="counter">Tempo: <span id="time">0</span> secondi</div>
+    <script src="./script.js"></script>
+  </body>
+</html>
